@@ -132,3 +132,4 @@ dmypy.json
 datasets
 raw_data
 **/dataset/*
+yolov5/
