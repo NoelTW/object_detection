@@ -1,5 +1,6 @@
 import pathlib
 from dataclasses import dataclass
+from dataclasses import field
 
 
 @dataclass
@@ -12,3 +13,7 @@ class AllPath:
     DATA_FILE_LOCATION_DAY_TRAIN:pathlib.Path = _DATA_BASE_DIR / 'dayTrain' / 'dayTrain'
     DATA_FILE_LOCATION_NIGHT_TRAIN:pathlib.Path = _DATA_BASE_DIR / 'nightTrain' / 'nightTrain'
     
+
+
+if __name__ == 'main':
+    print(AllPath())
